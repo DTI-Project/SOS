@@ -23809,10 +23809,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I was working in a restaurant near the coast when the tsunami hit. We tried
-    to run, but the water was too fast. I was swept away and thought I was going
-    to die. But somehow, I managed to cling to a piece of debris and survived. I'll
-    never forget that day.
+  m_text: Hey
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -23821,8 +23818,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -32744,7 +32741,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1926653165
 RectTransform:
   m_ObjectHideFlags: 0
@@ -32754,7 +32751,7 @@ RectTransform:
   m_GameObject: {fileID: 1926653164}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.66999996, z: 1}
+  m_LocalScale: {x: 0.3761194, y: 0.35999998, z: 0.53731346}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1487681884}
@@ -32816,9 +32813,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29ecb1aa6335e904c867593854987e9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textcomponent: {fileID: 0}
-  lines: []
-  textSpeed: 0
+  textcomponent: {fileID: 1487681885}
+  lines:
+  - I was working in a restaurant near the coast when the tsunami hit
+  - We tried to run, but the water was too fast.
+  - I was swept away and thought I was going to die.
+  - But somehow, I managed to cling to a piece of debris and survived. I'll never
+    forget that day.
+  textSpeed: 0.03
 --- !u!4 &1927292264 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000011066351628, guid: 36b4cee33c5a95b4fa7f0ae6bdb49564, type: 3}
@@ -34225,7 +34227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21e30442649500049b9aedd1f3424692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Info1: {fileID: 0}
+  Info1: {fileID: 1926653164}
   TalkButton: {fileID: 1312714977}
 --- !u!1001 &2083367998
 PrefabInstance:
