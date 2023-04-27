@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 679553faa086cdc48a58556300e27230, type: 3}
+  m_Name: SOS
+  m_EditorClassIdentifier: 
+  title: SOS
+  fullName: workspaces/sos
+  characters:
+  - {fileID: 11400000, guid: 2e4870bd516a7604f9528a1091a73e3e, type: 2}
+  - {fileID: 11400000, guid: ecaf4ea7af1a7c44aa554099a6dd524f, type: 2}
+  - {fileID: 11400000, guid: 8db5f9d023de512409b20413c562b5c5, type: 2}
+  - {fileID: 11400000, guid: e7c66a9e63c918c4d8f296c21e721ea7, type: 2}
+  - {fileID: 11400000, guid: ff9233a7559643a49950e4d04b8c2944, type: 2}
+  - {fileID: 11400000, guid: e4aef7e0d79f1154ca13ffdab178e0a9, type: 2}
+  - {fileID: 11400000, guid: bae83b9adcae56b4f85ad78e8d06aaf1, type: 2}
+  scenes:
+  - {fileID: 11400000, guid: 83cd8a384348b4f4cb518ce23fb2fe17, type: 2}
+  integrations:
+  - {fileID: 11400000, guid: 04144bf4b03cb3f49b0c0b6347f3cbe7, type: 2}
+  index: 0

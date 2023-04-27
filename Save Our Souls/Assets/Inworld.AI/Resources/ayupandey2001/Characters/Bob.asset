@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0447596b1a67de49ba5720fda0bdabe, type: 3}
+  m_Name: Bob
+  m_EditorClassIdentifier: 
+  characterName: Bob
+  brain: workspaces/sos/characters/bob
+  avatar: {fileID: 0}
+  workspace: workspaces/sos
+  currentScene: workspaces/sos/characters/bob
+  ownerShip: 0
+  defaultThumbnail: {fileID: 0}
+  index: 0
+  triggers: []
+  scenes:
+  - workspaces/sos/scenes/aftermath_sos
+  modelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/a9c154f5-d358-4c4e-a95a-88ee19a0c49c.glb
+  posUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/a9c154f5-d358-4c4e-a95a-88ee19a0c49c_posture.jpg
+  previewImgUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/a9c154f5-d358-4c4e-a95a-88ee19a0c49c_portrait.jpg
+  characterID: 

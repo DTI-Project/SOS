@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0447596b1a67de49ba5720fda0bdabe, type: 3}
+  m_Name: Jack
+  m_EditorClassIdentifier: 
+  characterName: Jack
+  brain: workspaces/sos/characters/jack
+  avatar: {fileID: 0}
+  workspace: workspaces/sos
+  currentScene: workspaces/sos/characters/jack
+  ownerShip: 0
+  defaultThumbnail: {fileID: 2800000, guid: e02d79b89e635474fa8a5abb75a3889f, type: 3}
+  index: 0
+  triggers: []
+  scenes:
+  - workspaces/sos/scenes/aftermath_sos
+  modelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/a7a04a29-5046-416a-9ce6-1c143348d346.glb
+  posUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/a7a04a29-5046-416a-9ce6-1c143348d346_posture.jpg
+  previewImgUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/a7a04a29-5046-416a-9ce6-1c143348d346_portrait.jpg
+  characterID: 

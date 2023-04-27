@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ad0515a2868cd4282589144c7820fd, type: 3}
+  m_Name: Aftermath_SOS
+  m_EditorClassIdentifier: 
+  fullName: workspaces/sos/scenes/aftermath_sos
+  shortName: Aftermath_SOS
+  description: 'As you walk through the city ruins left in the wake of the tsunami,
+    the destruction is overwhelming. The once-bustling streets are now eerily quiet,
+    with rubble and debris scattered everywhere. Buildings that once stood tall are
+    now reduced to crumbling shells, with shattered glass and twisted metal framing
+    the remnants of what was once a vibrant city. The sound of rushing water still
+    echoes through the empty streets, a haunting reminder of the force that caused
+    this devastation. In the distance, you can see plumes of smoke rising from fires
+    that continue to burn out of control. It''s clear that the road to recovery will
+    be long and arduous, but you must press on in your quest to aid those in need
+    amidst the chaos.
+
+'
+  characters:
+  - workspaces/sos/characters/bob
+  - workspaces/sos/characters/melissa
+  - workspaces/sos/characters/ayush
+  - workspaces/sos/characters/shaun
+  - workspaces/sos/characters/akshay_kumar
+  - workspaces/sos/characters/chloe
+  - workspaces/sos/characters/jack
+  triggers:
+  - workspaces/sos/triggers/city-tsunami
+  index: 0
